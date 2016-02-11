@@ -10,4 +10,8 @@ class ApplicationController < ActionController::Base
   def goodbye
     render text: 'Bye!'+params[:id]
   end
+  
+  def seeyou
+    render text: 'See You!'
+  end
 end
