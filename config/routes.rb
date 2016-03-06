@@ -3,11 +3,14 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
+=begin
   root 'application#hello'
 
   # Example of regular route:
+
   get 'products/:id' => 'application#goodbye'
   get 'seeyou' => 'application#seeyou'
+=end 
   
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
